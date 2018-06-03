@@ -1,0 +1,146 @@
+a, a:visited {
+text-decoration: none;
+color: white;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+body {
+color: black;
+background-image: url("bg.jpg");
+background-attachment: fixed;
+background-size:cover;
+background-repeat: no-repeat;
+font-family: Segoe UI, Arial, sans-serif;
+font-size: 12pt;
+}
+
+nav {
+left: 0px;
+top: 0px;
+background: #3498db;
+list-style: none;
+display: inline-block;
+width: 100%;
+border-bottom: 1px solid #89B0DD;
+}
+
+nav ul li {
+	padding: .5em;
+	display: inline-block;
+	color: white;
+	font-size: 1.2em;
+}
+
+select {
+color: black;
+}
+
+#barcode {
+transform: scale(.5);
+-moz-transform: scale(.5);
+-o-transform: scale(.5);
+-webkit-transform: scale(.5);
+}
+
+#left-nav-btn {
+	float: left;
+}
+
+#login-box {
+	position: fixed;
+	top: 10%;
+	left: 2%;
+	width: 20%;
+    background: #ecf0f1;
+	padding: .5em;
+	border-radius: 3px;
+}
+
+#searchbox-wrapper {
+	padding: .5em;
+	background: #89B0DD;
+	border-radius: 1em;
+}
+
+#nav-searchbox {
+	background: none;
+	border: none;
+	color: #464646;
+	text-align: center;
+	font-size: .9em;
+}
+
+#right-nav-btn {
+	float: right;
+	display: none;
+}
+
+#seat-details {
+padding: 1em;
+display: inline-table;
+list-style: none;
+}
+
+#search-entries {
+	padding:.75em;
+	background: white;
+	margin: 2% auto;
+	width: 50%;
+	top: 12%;
+	position: relative;
+	border-radius: 2px;
+	color: black;
+}
+
+#submit-btn {
+width: 20%;
+font-weight: 575;
+padding: .25em;
+border: 1px solid #16a085;
+border-radius: .2em;
+color: #FFF;
+text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);
+background-color: #27ae60;
+background-image: linear-gradient(to bottom, #2ecc71, #27ae60);
+background-repeat: repeat-x;
+transition: .1s all ease-in-out;
+}
+
+#submit-btn:hover {
+color: white;
+background: #16a085;
+}
+
+#ticket {
+color: black;
+font: Arial, sans-serif;
+background: #ecf0f1;
+width: 30%;
+padding: 1em;
+border-radius: 5px;
+}
+
+#traincons li {
+display: inline-table;
+padding: 4em;
+}
+
+.blue-top {
+	background: #3498db;
+	height: 100%;
+	padding: 1.3em;
+	position: relative;
+	color: white;
+}
+
+.blue-top>span {
+	margin-left: 5%;
+}
+
+.train-icons {
+height: 56x;
+width: 56px;
+}
